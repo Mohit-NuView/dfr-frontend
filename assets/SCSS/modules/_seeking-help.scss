@@ -1,0 +1,52 @@
+/* Seeking Help */
+
+.seeking-help {
+    h2 {
+        text-align: center;
+    }
+
+    &-listing-container {
+        padding-right: 12px;
+
+        .cta-outline {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            margin-bottom: 20px;
+        }
+    }
+
+    &-listing {
+        list-style: none;
+        margin-bottom: 20px;
+
+        li {
+            display: flex;
+            align-items: center;
+
+            &:not(:last-child) {
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991.98px) {
+        h2 {
+            text-align: left;
+        }
+
+        &-listing-container {
+            margin-bottom: 32px;
+
+            .cta-outline {
+                font-size: 14px;
+            }
+
+            &.right-cont {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

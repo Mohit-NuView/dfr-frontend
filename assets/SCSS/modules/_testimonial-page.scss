@@ -1,0 +1,17 @@
+.testimonials {
+    .row {
+        .col-lg-4 {
+            margin-bottom: 24px;
+            .rating-card {
+               margin-bottom: 24px; 
+               height: 100%;
+            }
+            &:nth-child(even) {
+                .rating-card {
+                    background: $primary-color;
+                    color: $base-light-color;
+                }
+            }
+        }
+    }
+}

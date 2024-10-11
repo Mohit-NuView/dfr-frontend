@@ -1,0 +1,46 @@
+/* What We Treat */
+.what-we-treat {
+    background-color: $base-light-grey;
+
+    h2 {
+        text-align: center;
+    }
+
+    &-blocks {
+        a {
+            color: $primary-font-color;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            display: flex;
+            align-items: center;
+            background: $base-light-color;
+            padding: 25px 15px 25px 15px;
+            border-radius: 10px;
+            @extend .transition;
+
+            h3 {
+                margin-left: 20px;
+                letter-spacing: 0.4px;
+            }
+
+            &:hover {
+                background: $primary-light-color;
+                @extend .transition;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991.98px) {
+        &-blocks {
+            margin-bottom: 16px;
+        }
+    }
+
+    @media only screen and (max-width: 767.98px) {
+        h2 {
+            text-align: left;
+        }
+    }
+}

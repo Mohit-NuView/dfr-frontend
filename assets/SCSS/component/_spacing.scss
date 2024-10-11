@@ -1,0 +1,39 @@
+.common-spacing-tb {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+//Padding
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+//Padding
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+//Margin
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.ml-24 {
+    margin-left: 24px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .common-spacing-tb {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .pt-m-0 {
+        padding-top: 0 !important;
+    }
+}

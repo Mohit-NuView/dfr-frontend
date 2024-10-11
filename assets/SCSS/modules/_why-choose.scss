@@ -1,0 +1,19 @@
+/* why choose */
+
+.why-choose {
+    padding-top: 0;
+
+    .username {
+        margin-top: 20px;
+        font-weight: 600;
+        color: $primary-color;
+        font-size: 22px;
+        display: block;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+        .username {
+            font-size: 18px;
+        }
+    }
+}

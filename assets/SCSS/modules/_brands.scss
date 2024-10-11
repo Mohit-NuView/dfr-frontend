@@ -1,0 +1,36 @@
+/* brands */
+
+.brands {
+    background: $base-light-grey;
+
+    h2 {
+        text-align: center;
+    }
+
+    &-item {
+        background-color: $base-light-color;
+        padding: 28px;
+        border: 1px solid $border-color;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+
+        img {
+            height: 72px;
+        }
+    }
+
+    .owl-theme {
+        .owl-dots {
+            text-align: center;
+        }
+    }
+
+    .owl-carousel .owl-item .brands-item {
+        img {
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.our-work {
+    background: $primary-light-color;
+
+    &-cards {
+        background: $primary-light-color;
+        border-radius: 12px;
+        background-color: $base-light-color;
+        display: flex;
+        padding: 16px;
+        align-items: start;
+        flex: 1;
+        width: 33.33%;
+
+        &-wrapper {
+            display: flex;
+            gap: 24px;
+        }
+
+        &-image {
+            border: solid 1px $border-color;
+            padding: 4px;
+            border-radius: 12px;
+            width: 96px;
+        }
+
+        &-desc {
+            width: calc(100% - 96px);
+            padding-left: 16px;
+
+            .h4 {
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &-cards {
+            width: 100%;
+            flex: auto;
+
+            &-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            &-image {
+                width: 72px;
+            }
+
+            &-desc {
+                width: calc(100% - 72px);
+            }
+        }
+    }
+}

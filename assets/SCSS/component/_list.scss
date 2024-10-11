@@ -1,0 +1,26 @@
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+
+    &>li {
+        position: relative;
+        margin-bottom: 8px;
+        padding-left: 20px;
+
+        &::before {
+            content: '';
+            background: url('../images/list-icon.svg') no-repeat;
+            background-position: left center;
+            width: 10px;
+            height: 12px;
+            position: absolute;
+            left: 0;
+            top: 7px;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 8px;
+        }
+    }
+}

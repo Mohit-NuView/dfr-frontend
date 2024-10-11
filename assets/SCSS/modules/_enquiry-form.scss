@@ -1,0 +1,31 @@
+.enquiry {
+    &-card {
+        background: $primary-color;
+        border-radius: 15px;
+        padding: 48px;
+
+        .form-heading {
+            margin-bottom: 32px;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &-card {
+            padding: 32px;
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        &-card {
+            padding: 24px;
+
+            .form-heading {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

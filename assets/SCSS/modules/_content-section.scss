@@ -1,0 +1,143 @@
+// Content section starts
+.content-section {
+
+    &.sticky-image {
+        .content-section {
+            &-row {
+                align-items: start;
+            }
+
+            &-image {
+                position: sticky;
+                top: 50px;
+            }
+        }
+    }
+
+    &-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &-image {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            @include border-radius(12px);
+        }
+    }
+
+    &-desc {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+
+    /************************************/
+    /*********** LEFT IMAGE ************/
+    /***********************************/
+    &-left-image {
+        .content-section {
+            &-desc {
+                padding-left: 56px;
+            }
+        }
+    }
+
+    /************************************/
+    /*********** RIGHT IMAGE ************/
+    /***********************************/
+    &-right-image {
+
+        .content-section {
+            &-row {
+                flex-direction: row-reverse;
+            }
+
+            &-desc {
+                padding-left: 0;
+                padding-right: 56px;
+            }
+        }
+    }
+
+    /******************************************/
+    /*********** Fullwidth Content ************/
+    /******************************************/
+    &-fullwidth-content {
+
+        .content-section {
+            &-image {
+                display: none;
+            }
+
+            &-desc {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+        &-left-image {
+            .content-section {
+                &-desc {
+                    padding-left: 32px;
+                }
+            }
+        }
+
+        &-right-image {
+            .content-section {
+                &-desc {
+                    padding-right: 32px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 767.98px) {
+        &.sticky-image {
+            .content-section {
+                &-row {
+                    align-items: start;
+                }
+    
+                &-image {
+                    position: static;
+                    top: auto;
+                }
+            }
+        }
+        &-image {
+            width: 100%;
+        }
+        &-desc {
+            width: 100%;
+        }
+
+        &-left-image {
+            .content-section {
+                &-row {
+                    flex-direction: column-reverse;
+                }
+                &-desc {
+                    padding-left: 0;
+                }
+            }
+        }
+        &-right-image {
+            .content-section {
+                &-row {
+                    flex-direction: column-reverse;
+                }
+            }
+        }
+    }
+}
+
+// Content section ends

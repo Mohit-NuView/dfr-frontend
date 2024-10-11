@@ -1,0 +1,50 @@
+//Bootstrap
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+// @import "bootstrap/scss/utilities";
+
+//Owl Carousal
+@import 'owl-carousal/owl.carousel';
+
+//Lightbox
+@import 'lightbox/glightbox';
+
+// // // Partials
+@import 'partial/global';
+@import 'component/mixins';
+
+///////////////////////////////////////
+/////// COMMON COMPONENTS /////////////
+///////////////////////////////////////
+
+@import 'component/icons';
+@import 'component/spacing';
+@import 'component/buttons';
+@import 'component/form';
+@import 'component/list';
+@import 'component/cards';
+
+
+// // Modules
+// ///////////////////////////////////////
+// /////// COMMON MODULES ////////////////
+// ///////////////////////////////////////
+// @import 'modules/layout';
+// @import 'modules/header';
+// @import 'modules/footer';
+
+
+
+// //Homepage
+// @import 'modules/banner';
+// @import 'modules/content-section';
+// @import 'modules/card-icon-section';
+// @import 'modules/kpi-card';
+// @import 'modules/video-section';
+// @import 'modules/our-work';
+// @import 'modules/form-section';

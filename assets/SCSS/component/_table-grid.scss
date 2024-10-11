@@ -1,0 +1,31 @@
+.table-grid {
+    // border: solid 1px $border-color;
+    width: 100%;
+    text-align: left;
+
+    tbody,
+    thead {
+        tr {
+
+            &>td,
+            &>th {
+                padding: 24px;
+                border: solid 1px $base-grey-color;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991.98px) {
+
+        tbody,
+        thead {
+            tr {
+
+                &>td,
+                &>th {
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+}

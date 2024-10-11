@@ -1,0 +1,80 @@
+/* Questions */
+.cta-section {
+    color: $base-light-color;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(28, 131, 122, 0.85);
+    }
+
+    .container {
+        position: relative;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .cta-icon {
+        border-color: $base-light-color;
+        color: $primary-font-color;
+        background: $base-light-color;
+        margin-top: 20px;
+
+        span {
+            background: $primary-color;
+            color: $base-light-color;
+        }
+    }
+
+    &-light {
+        color: $primary-font-color;
+        background: $base-light-grey;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    /* &-2 {
+        &-inner-cont {
+            background: $base-light-grey;
+            padding: 96px;
+            border-radius: 12px;
+        }
+    } */
+
+    /* @media only screen and (max-width: 1199.98px) {
+        &-2 {
+            &-inner-cont {
+                padding: 48px;
+            }
+        }
+    } */
+
+    @media only screen and (max-width: 991.98px) {
+        padding: 48px 0px 48px 0px;
+    }
+
+    @media only screen and (max-width: 767.98px) {
+        &-2 {
+            &-inner-cont {
+                padding: 24px;
+            }
+        }
+    }
+}

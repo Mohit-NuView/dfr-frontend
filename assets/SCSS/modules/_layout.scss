@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    font-size: $base-font-size;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+// Headings
+.h1 {
+    font-size: 60px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: $base-font-weight;
+    margin-bottom: 32px;
+    line-height: 56px;
+}
+
+.h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.h6 {
+    font-size: $base-font-size;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.blockquote {
+    background: $base-light-grey;
+    padding: 12px;
+    @include border-radius(12px);
+    font-weight: 600;
+}
+
+// Common classes for color
+.light-grey-bg {
+    background: $base-light-grey;
+}
+
+.primary-bg {
+    background: $primary-color;
+}
+
+.primary-light-bg {
+    background: $primary-light-color;
+}
+
+.transition {
+    @include transition(all, 0.2s);
+}
+
+.middle-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ripple {
+    -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite;
+}
+
+.ripple-white {
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-white 1s linear infinite;
+}
+
+@-webkit-keyframes ripple {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(26, 131, 121, 0.1), 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1);
+        box-shadow: 0 0 0 0 rgba(26, 131, 121, 0.1), 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1), 0 0 0 30px rgba(26, 131, 121, 0);
+        box-shadow: 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1), 0 0 0 30px rgba(26, 131, 121, 0);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(26, 131, 121, 0.1), 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1);
+        box-shadow: 0 0 0 0 rgba(26, 131, 121, 0.1), 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1), 0 0 0 30px rgba(26, 131, 121, 0);
+        box-shadow: 0 0 0 2px rgba(26, 131, 121, 0.1), 0 0 0 6px rgba(26, 131, 121, 0.1), 0 0 0 18px rgba(26, 131, 121, 0.1), 0 0 0 30px rgba(26, 131, 121, 0);
+    }
+}
+
+@-webkit-keyframes ripple-white {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes ripple-white {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 0 6px rgba(255, 255, 255, 0.1), 0 0 0 18px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .h1 {
+        font-size: 56px;
+        margin-bottom: 28px;
+        line-height: 68px;
+    }
+    
+    .h2 {
+        font-size: 36px;
+        margin-bottom: 28px;
+        line-height: 48px;
+    }
+    
+    .h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .h4 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    
+    .h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .text-left-m {
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .h2 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    
+    .h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    
+    .h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

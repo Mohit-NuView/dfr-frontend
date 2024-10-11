@@ -1,0 +1,42 @@
+.contact-info {
+    &-card {
+        color: $primary-font-color;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: $base-light-color;
+        padding: 48px;
+        border-radius: 10px;
+        text-align: center;
+        height: 100%;
+
+        h5 {
+            font-weight: $base-font-weight;
+            padding-bottom: 4px;
+        }
+
+        &-icon {
+            width: 96px;
+            height: 96px;
+            @extend .middle-align;
+            background: $base-light-color;
+            @include box-shadow(0, 5px, 10px, rgba(0, 0, 0, 0.1));
+            @include border-radius(50px);
+            margin-bottom: 24px;
+        }
+
+        &:hover {
+            background: $primary-color;
+            color: $base-light-color;
+        }
+    }
+    @media only screen and (max-width: 991.98px) {
+        &-card {
+            height: auto;
+            margin-bottom: 16px;
+        }
+    }
+}

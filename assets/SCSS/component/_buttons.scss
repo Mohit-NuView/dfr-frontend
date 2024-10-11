@@ -1,0 +1,53 @@
+.cta {
+
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 20px 48px;
+    cursor: pointer;
+    @include transition(all, 0.2s);
+
+    &-primary {
+        color: $base-light-color;
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+    }
+
+    &-secondary {
+        color: $primary-font-color;
+        background-color: $base-light-color;
+        border: 1px solid $primary-color;
+    }
+
+    &-outline-primary {
+        color: $primary-color;
+        background-color: transparent;
+        border: 1px solid $primary-color;
+    }
+    &-outline-secondary {
+        color: $primary-font-color;
+        background-color: transparent;
+        border: 1px solid $primary-font-color;
+    }
+
+    &:hover {
+        background-color: $base-light-color;
+        color: $primary-font-color;
+        @include scale(1.05);
+        @include transition(all, 0.2s);
+        z-index: 1;
+
+        span {
+            background: $primary-color;
+            color: $base-light-color;
+            @include transition(all, 0.2s);
+        }
+    }
+
+
+    @media only screen and (max-width: 991.98px) {
+        font-size: 12px;
+        padding: 16px 28px;
+    }
+}

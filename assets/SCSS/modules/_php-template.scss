@@ -1,0 +1,27 @@
+.admission-process-php {
+    .admission-process {
+        &-left {
+            text-align: right;
+
+            .admission-process-card {
+                &-content {
+                    padding-left: 0;
+                    padding-right: 16px;
+                }
+            }
+        }
+        &-middle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .admission-nuview-icon {
+        padding: 48px;
+        background: $base-light-color;
+        @include box-shadow(0, 10px, 30px, 0 rgba(0, 0, 0, 0.1));
+        @include border-radius(100px);
+        @extend .middle-align;
+    }
+}

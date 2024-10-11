@@ -1,0 +1,287 @@
+.banner {
+    position: relative;
+    // min-height: 90vh;
+
+    &-content {
+        background-color: #F1FAF9;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: auto 810px;
+        display: flex;
+        align-items: center;
+        color: $base-light-color;
+        overflow: hidden;
+
+        &.overlay {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 810px;
+                background: linear-gradient(248deg, rgba(0, 0, 0, 0.00) 26.21%, rgba(0, 0, 0, 0.70) 85.4%);
+            }
+        }
+
+        &-row {
+            display: flex;
+        }
+
+        &-left {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            position: relative;
+            padding: 120px 16px 120px 0;
+            flex: 0 0 auto;
+            width: 50%;
+
+            .h1 {
+                color: $base-light-color;
+
+                span {
+                    display: block;
+                    font-size: 28px;
+                    font-weight: $base-font-weight;
+                    line-height: 40px;
+                }
+            }
+
+            .description {
+                margin-bottom: 0;
+            }
+
+            &-cta {
+                display: flex;
+                gap: 16px;
+                margin-top: 48px;
+            }
+
+            &-social-links {
+                .social-heading {
+                    font-size: 14px;
+                    display: block;
+                }
+
+                .social-links {
+                    display: flex;
+                    margin-top: 8px;
+
+                    &-items {
+                        width: 32px;
+                        height: 32px;
+                        background: rgba(0, 0, 0, 0.10);
+                        border-radius: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        &:not(:last-child) {
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-right {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+
+        .enquiry-card {
+            position: relative;
+        }
+    }
+
+    /************************************/
+    /*********** FORM BOTTOM ************/
+    /************************************/
+    &.form-bottom {
+        .banner-content {
+            &-row {
+                flex-direction: column;
+            }
+
+            &-right {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                .enquiry-card {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+
+    /***********************************/
+    /*********** FORM RIGHT ************/
+    /***********************************/
+    &.form-right {
+        .banner-content {
+            background-size: cover;
+
+            &.overlay {
+                position: relative;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            &-row {
+                align-items: center;
+            }
+
+            &-left {
+                padding: 0 56px 0 0;
+            }
+
+            &-right {
+                padding-top: 48px;
+                padding-bottom: 48px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &.form-bottom {
+            .banner-content {
+                background-size: auto 640px;
+
+                &.overlay {
+                    &::before {
+                        content: '';
+                        height: 640px;
+                    }
+                }
+
+                &-left {
+                    padding: 96px 16px;
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 991.98px) {
+        &.form-bottom {
+            .banner-content {
+                background-size: auto 560px;
+
+                &.overlay {
+                    &::before {
+                        content: '';
+                        height: 560px;
+                    }
+                }
+
+                &-left {
+                    padding: 48px 16px 48px 0;
+                    width: 60%;
+
+                    .h1 {
+                        margin-bottom: 20px;
+
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                &-right {
+                    .enquiry-card {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        /***********************************/
+        /*********** FORM RIGHT ************/
+        /***********************************/
+        &.form-right {
+
+            .banner-content {
+                padding: 48px 0;
+
+                &-row {
+                    flex-direction: column;
+                }
+
+                &-left {
+                    padding: 0;
+                    width: 100%;
+                }
+
+                &-right {
+                    padding-top: 20px;
+                    padding-bottom: 0px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 575.98px) {
+        &.form-bottom {
+            .banner-content {
+                background-size: auto 492px;
+
+                &.overlay {
+                    &::before {
+                        content: '';
+                        height: 492px;
+                    }
+                }
+
+                &-left {
+                    padding: 48px 16px 48px 0;
+                    width: 78%;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*************************************/
+/*********** ENQUIRY FORM ************/
+/*************************************/
+.enquiry {
+    &-card {
+        background: $primary-color;
+        border-radius: 15px;
+        padding: 48px;
+
+        .form-heading {
+            margin-bottom: 32px;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &-card {
+            padding: 32px;
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        &-card {
+            padding: 24px;
+
+            .form-heading {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

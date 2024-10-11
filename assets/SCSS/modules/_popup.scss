@@ -1,0 +1,97 @@
+.popup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    &-overlay {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .8);
+        display: none;
+        z-index: 11;
+    }
+
+    &-dialog {
+        position: absolute;
+        background-color: #fff;
+        overflow: visible;
+        border-radius: 0;
+        box-shadow: none;
+        pointer-events: all;
+        box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+        width: 768px;
+        z-index: 12;
+
+        .form-control {
+            background-color: $base-light-grey;
+            border: solid 1px $border-color;
+            color: $primary-font-color;
+
+            &::placeholder {
+                color: $base-grey-color;
+            }
+        }
+    }
+
+    &-close {
+        display: flex;
+        top: 20px;
+        margin-top: 0;
+        right: 20px;
+        opacity: 1;
+        z-index: 9999;
+        cursor: pointer;
+        position: absolute;
+    }
+
+    &-header {
+        padding: 32px;
+        border-bottom: solid 1px $border-color;
+    }
+
+    &-body {
+        padding: 32px;
+    }
+
+    &-header {
+        padding: 32px;
+        border-top: solid 1px $border-color;
+    }
+
+    @media screen and (max-width: 991.98px) {
+        &-dialog {
+            max-width: 576px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        padding-top: 48px;
+
+        &-header {
+            padding: 24px;
+        }
+
+        &-body {
+            padding: 24px;
+        }
+
+        &-dialog {
+            max-width: 320px;
+            max-height: 100%;
+            overflow: auto;
+        }
+    }
+}

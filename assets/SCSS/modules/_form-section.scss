@@ -1,0 +1,70 @@
+.form-section {
+    &-container {
+        background: $primary-light-color;
+        padding: 16px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        color: $base-light-color;
+
+        .enquiry-card {
+            width: 55%;
+            margin-right: 56px;
+        }
+    }
+
+    &-image {
+        width: 45%;
+    }
+
+    @media screen and (max-width: 991.98px) {
+        &-container {
+            padding: 0;
+
+            .enquiry-card {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+
+        &-image {
+            display: none;
+        }
+    }
+}
+
+
+/*************************************/
+/*********** ENQUIRY FORM ************/
+/*************************************/
+.enquiry {
+    &-card {
+        background: $primary-color;
+        border-radius: 15px;
+        padding: 48px;
+
+        .form-heading {
+            margin-bottom: 32px;
+        }
+
+        .cta {
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &-card {
+            padding: 32px;
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        &-card {
+            padding: 24px;
+
+            .form-heading {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

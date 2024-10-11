@@ -1,0 +1,47 @@
+.kpi {
+    &-cards-wrapper {
+        border-radius: 32px;
+        background: $primary-color;
+        display: flex;
+        align-items: center;
+        padding: 48px 0;
+
+    }
+
+    &-card-items {
+        text-align: center;
+        color: $base-light-color;
+        padding: 0 48px;
+        width: 33.33%;
+
+        &:not(:last-child) {
+            border-right: solid 1px $base-light-color;
+        }
+    }
+
+    &-numbers {
+        margin-bottom: 8px;
+    }
+
+    &-text {
+        font-size: $base-font-size;
+        font-weight: 700;
+    }
+
+    @media screen and (max-width: 991.99px) {
+        &-cards-wrapper {
+            flex-direction: column;
+            padding: 24px;
+        }
+        &-card-items {
+            border: none;
+            padding: 24px;
+            width: 100%;
+
+            &:not(:last-child) {
+                border-right: none;
+                border-bottom: solid 1px $base-light-color;
+            }
+        }
+    }
+}

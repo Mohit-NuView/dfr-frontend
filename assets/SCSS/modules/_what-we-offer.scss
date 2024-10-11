@@ -1,0 +1,44 @@
+/* What we offer */
+.what-we-offer {
+
+    // h2 {
+    //     text-align: center;
+    // }
+
+    &-list {
+        list-style: none;
+        text-align: left;
+
+        &>li {
+            margin-bottom: 12px;
+
+
+            &>a {
+                background-color: $base-light-grey;
+                border-radius: 8px;
+                padding: 15px 40px 15px 20px;
+                display: block;
+                color: $primary-font-color;
+                position: relative;
+
+                &::after {
+                    /* use !important to prevent issues with browser extensions that change fonts */
+                    font-family: 'icomoon' !important;
+                    content: "\e908";
+                    position: absolute;
+                    right: 20px;
+                    top: 0;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+                    color: $primary-color;
+                }
+
+                &:hover {
+                    background: $primary-light-color;
+                }
+            }
+        }
+    }
+}
