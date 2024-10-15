@@ -1,0 +1,135 @@
+.testimonial {
+    &-container {
+        border-radius: 32px;
+        background: $base-light-color;
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+        padding: 48px;
+
+        .more-testimonial {
+            text-align: center;
+            margin-top: 32px;
+        }
+    }
+
+    &-slider-wrapper {
+        background-color: $primary-light-color;
+        padding: 48px;
+        border-radius: 32px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            content: "\e902";
+            font-family: 'icomoon' !important;
+            position: absolute;
+            left: 32px;
+            top: 16px;
+            font-size: 88px;
+            line-height: 88px;
+            color: $primary-color;
+            opacity: 0.3;
+        }
+
+        p {
+            position: relative;
+        }
+
+        .rating {
+            color: #ECD147;
+        }
+    }
+}
+
+.video {
+    &-testimonial {
+        display: flex;
+        padding-top: 32px;
+        margin-top: 32px;
+        border-top: solid 1px $border-color;
+        gap: 48px;
+
+        &-card {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 258px;
+            width: 33.33%;
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        &__overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            @include gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5));
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            flex-direction: column;
+            padding-bottom: 24px;
+            padding-right: 24px;
+        }
+
+        &__videoplay {
+            width: 72px;
+            height: 72px;
+            background: $base-light-color;
+            font-size: 28px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            -webkit-animation: ripple-white 1s linear infinite;
+            animation: ripple-white 1s linear infinite;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .testimonial {
+        &-container,
+        &-slider-wrapper {
+            padding: 32px;
+        }
+        &-slider-wrapper {
+
+        }
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .testimonial {
+    }
+    .video {
+        &-testimonial {
+            padding-top: 20px;
+            margin-top: 20px;
+            gap: 20px;
+            flex-direction: column;
+
+            &-card {
+                width: 100%;
+            }
+            &__overlay {
+                padding-bottom: 16px;
+                padding-right: 16px;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .testimonial {
+        &-container,
+        &-slider-wrapper {
+            padding: 24px;
+        }
+    }
+}

@@ -70,3 +70,17 @@
 		}
 	}
 }
+
+
+@media screen and (max-width: 767.98px) {
+	.owl-theme {
+		// Styling Next and Prev buttons
+		.owl-nav {
+			width: 100%;
+		}
+
+		.owl-dots {
+			margin-top: -36px;
+		}
+	}
+}

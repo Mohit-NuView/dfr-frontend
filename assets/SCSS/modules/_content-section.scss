@@ -100,22 +100,25 @@
             }
         }
     }
+
     @media only screen and (max-width: 767.98px) {
         &.sticky-image {
             .content-section {
                 &-row {
                     align-items: start;
                 }
-    
+
                 &-image {
                     position: static;
                     top: auto;
                 }
             }
         }
+
         &-image {
             width: 100%;
         }
+
         &-desc {
             width: 100%;
         }
@@ -125,11 +128,13 @@
                 &-row {
                     flex-direction: column-reverse;
                 }
+
                 &-desc {
                     padding-left: 0;
                 }
             }
         }
+
         &-right-image {
             .content-section {
                 &-row {

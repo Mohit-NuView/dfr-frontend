@@ -1,0 +1,41 @@
+.cta-section {
+    background: $primary-color;
+    color: $base-light-color;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    .section-heading,
+    .cta {
+        position: relative;
+    }
+
+    &::before {
+        content: '';
+        background: url('../images/logo-vector-bg.svg') no-repeat;
+        background-size: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -150px;
+        width: 500px;
+        height: 500px;
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &::before {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        text-align: left;
+
+        &::before {
+            width: 400px;
+            height: 400px;
+            left: 50%;
+            margin-left: -200px;
+        }
+    }
+}

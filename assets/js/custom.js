@@ -99,6 +99,26 @@ $(document).ready(function () {
         }
     }) 
 
+    $('.testimonial-slider').owlCarousel({
+        margin: 20,
+        nav: true,
+        dots: true,
+        loop: true,
+        autoplay: true,
+        navText: ["<i class='icon-angle-left'></i>", "<i class='icon-angle-right'></i>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    }) 
+
     //Tabs
     $('.tabs-item__link').click(function () {
         $(".tabs-panel").removeClass('tabs-panel-active');
@@ -210,15 +230,15 @@ $(document).ready(function () {
     });
 
     // What we do JS
-    /* $('.what-we-do-list-title').on('click', function () {
-        $('.what-we-do-list').removeClass('active');
-        $('.what-we-do-list-desc').slideUp();
-        $(this).siblings('.what-we-do-list-desc').slideToggle();
-        $(this).parent('.what-we-do-list').addClass('active');
+    $('.location-list-title').on('click', function () {
+        $('.location-list').removeClass('active');
+        $('.location-list-desc').slideUp();
+        $(this).siblings('.location-list-desc').slideToggle();
+        $(this).parent('.location-list').addClass('active');
 
-        let imgPath = $(this).attr('data-src');
-        $('.what-we-do-list-image img').attr('src', `assets/images/${imgPath}`);
-    }) */
+        let mapPath = $(this).attr('data-src');
+        $('.location-map iframe').attr('src', `${mapPath}`);
+    })
 })
 
 // Accessibility JS code 

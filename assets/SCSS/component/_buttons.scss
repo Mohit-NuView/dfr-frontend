@@ -1,5 +1,4 @@
 .cta {
-
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -7,6 +6,7 @@
     padding: 20px 48px;
     cursor: pointer;
     @include transition(all, 0.2s);
+    display: inline-block;
 
     &-primary {
         color: $base-light-color;
@@ -29,6 +29,12 @@
         color: $primary-font-color;
         background-color: transparent;
         border: 1px solid $primary-font-color;
+    }
+
+    &-link {
+        padding: 0;
+        border-radius: 0;
+        text-decoration: underline;
     }
 
     &:hover {

@@ -1,0 +1,165 @@
+.success-stories {
+    &-section {
+        background: $primary-light-color;
+    }
+
+    &-card {
+        display: flex;
+        border: solid 1px $border-color;
+        background: $base-light-color;
+
+        &-image {
+            width: 50%;
+            background-position: center center;
+            background-size: cover;
+            position: relative;
+        }
+
+        &-content {
+            width: 50%;
+            padding: 48px;
+
+            .h6 {
+                margin-bottom: 32px;
+            }
+
+            .h4 {
+                margin-bottom: 16px;
+            }
+
+            p {
+                margin-bottom: 32px;
+            }
+        }
+
+
+        /**************************/
+        /******* LEFT IMAGE *******/
+        /**************************/
+        &.left-image {
+            .success-stories-card {
+
+                &-image {
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        @include triangle(44px, 44px, 44px, 44px, left, #fff);
+                        right: 0;
+                        top: 50%;
+                        margin-top: -44px;
+                    }
+                }
+            }
+        }
+
+        /**************************/
+        /******* RIGHT IMAGE *******/
+        /**************************/
+        &.right-image {
+            flex-direction: row-reverse;
+
+            .success-stories-card {
+                &-image {
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        @include triangle(44px, 44px, 44px, 44px, right, #fff);
+                        left: 0;
+                        top: 50%;
+                        margin-top: -44px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 991.98px) {
+            &-content {
+                padding: 32px;
+
+                .h6 {
+                    margin-bottom: 24px;
+                }
+
+                .h4 {
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    margin-bottom: 24px;
+                }
+            }
+
+            /**************************/
+            /******* LEFT IMAGE *******/
+            /**************************/
+            &.left-image {
+                .success-stories-card {
+
+                    &-image {
+                        &::before {
+                            content: '';
+                            @include triangle(24px, 24px, 24px, 24px, left, #fff);
+                            margin-top: -24px;
+                        }
+                    }
+                }
+            }
+
+            /**************************/
+            /******* RIGHT IMAGE *******/
+            /**************************/
+            &.right-image {
+                flex-direction: row-reverse;
+
+                .success-stories-card {
+                    &-image {
+                        &::before {
+                            content: '';
+                            @include triangle(24px, 24px, 24px, 24px, right, #fff);
+                            margin-top: -24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 767.98px) {
+            flex-direction: column;
+
+            &-image {
+                width: 100%;
+                min-height: 320px;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            &-content {
+                width: 100%;
+                padding: 32px;
+                padding: 24px;
+
+                .h6 {
+                    margin-bottom: 24px;
+                }
+
+                .h4 {
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    margin-bottom: 24px;
+                }
+            }
+
+            /**************************/
+            /******* RIGHT IMAGE *******/
+            /**************************/
+            &.right-image {
+                flex-direction: column;
+                margin-top: 20px;
+            }
+        }
+    }
+}
