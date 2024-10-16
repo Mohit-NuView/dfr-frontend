@@ -97,7 +97,7 @@ $(document).ready(function () {
                 items: 3
             }
         }
-    }) 
+    })
 
     $('.testimonial-slider').owlCarousel({
         margin: 20,
@@ -117,7 +117,7 @@ $(document).ready(function () {
                 items: 1
             }
         }
-    }) 
+    })
 
     //Tabs
     $('.tabs-item__link').click(function () {
@@ -125,6 +125,24 @@ $(document).ready(function () {
         $(".tabs-panel[data-id='" + $(this).attr('data-id') + "']").addClass("tabs-panel-active");
         $(".tabs-item__link").removeClass('active');
         $(this).parent().find(".tabs-item__link").addClass('active');
+    });
+
+
+
+    $('.location-area-char-items').on('click', function () {
+        const goToSection = "[data-section=" + $(this).data('class').trim() + "]";
+        if ($(window).width() >= 1200) {
+            $('html, body').animate({ scrollTop: $(goToSection).offset().top - 200 })
+        }
+        if ($(window).width() < 1199) {
+            $('html, body').animate({ scrollTop: $(goToSection).offset().top - 180 })
+        }
+        if ($(window).width() <= 768) {
+            $('html, body').animate({ scrollTop: $(goToSection).offset().top - 220 })
+        }
+        if ($(window).width() < 476) {
+            $('html, body').animate({ scrollTop: $(goToSection).offset().top - 240 })
+        }
     });
 
 
@@ -165,13 +183,13 @@ $(document).ready(function () {
 
 
     //Fixed header
-    /* $(window).scroll(function () {
+    $(window).scroll(function () {
         var sticky = $('header'),
             scroll = $(window).scrollTop();
 
         if (scroll >= 200) sticky.addClass('fixed');
         else sticky.removeClass('fixed');
-    }); */
+    });
 
 
     // Navbar Menu
@@ -241,7 +259,7 @@ $(document).ready(function () {
     })
 })
 
-// Accessibility JS code 
+// Accessibility JS code
 /* $(function () {
     $('body').openAccessibility({
         localization: ['en'],

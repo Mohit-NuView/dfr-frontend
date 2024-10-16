@@ -120,6 +120,93 @@
                     <p><strong>Embrace the path to wellness and discover your greatest potential at Sober Living Los
                             Angeles with Design for Recovery.</strong></p>
 
+                    <ul class="tabs">
+                        <li class="tabs-item">
+                            <div class="tabs-item__link active" data-id="venice-beach">Venice Beach</div>
+                        </li>
+                        <li class="tabs-item">
+                            <div class="tabs-item__link" data-id="santa-monica">Santa Monica Pier</div>
+                        </li>
+                        <li class="tabs-item">
+                            <div class="tabs-item__link" data-id="downtown">Downtown</div>
+                        </li>
+                        <li class="tabs-item">
+                            <div class="tabs-item__link" data-id="farmer-market">Farmers Market</div>
+                        </li>
+                        <li class="tabs-item">
+                            <div class="tabs-item__link" data-id="museums">Museums</div>
+                        </li>
+                    </ul>
+                    <div class="tabs-content">
+                        <div class="tabs-panel tabs-panel-active" data-id="venice-beach">
+                            Southern California may be best known for being the home of the entertainment industry, but
+                            internationally it is also known as a major art area. Smaller art galleries are dispersed
+                            throughout every neighborhood, but major museums like LACMA, the Getty Center, and the Getty
+                            Villa are mostly located on the Westside. Many of them even offer one free day of the week.
+                        </div>
+                        <div class="tabs-panel" data-id="santa-monica">
+                            Southern California may be best known for being the home of the entertainment industry, but
+                            internationally it is also known as a major art area. Smaller art galleries are dispersed
+                        </div>
+                        <div class="tabs-panel" data-id="downtown">
+                            Smaller art galleries are dispersed throughout every neighborhood, but major museums like
+                            LACMA, the Getty Center, and the Getty Villa are mostly located on the Westside. Many of
+                            them even offer one free day of the week.
+                        </div>
+                        <div class="tabs-panel" data-id="farmer-market">
+                            Smaller art galleries are dispersed throughout every neighborhood, but major museums like
+                            LACMA, the Getty Center, and the Getty Villa are mostly located on the Westside. Many of
+                            them even offer one free day of the week.
+                        </div>
+                        <div class="tabs-panel" data-id="museums">
+                            Smaller art galleries are dispersed throughout every neighborhood, but major museums like
+                            LACMA, the Getty Center, and the Getty Villa are mostly located on the Westside. Many of
+                            them even offer one free day of the week.
+                        </div>
+                    </div>
+
+                    <div class="content-icon-card-container">
+                        <div class="content-icon-card">
+                            <div class="content-icon-card-image">
+                                <img src="assets/images/duration.svg" alt="" width="64" height="72">
+                            </div>
+                            <div class="content-icon-card-desc">
+                                <h3 class="h5">Duration of Stay</h3>
+                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-icon-card">
+                            <div class="content-icon-card-image">
+                                <img src="assets/images/duration.svg" alt="" width="64" height="72">
+                            </div>
+                            <div class="content-icon-card-desc">
+                                <h3 class="h5">Duration of Stay</h3>
+                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-icon-card">
+                            <div class="content-icon-card-image">
+                                <img src="assets/images/duration.svg" alt="" width="64" height="72">
+                            </div>
+                            <div class="content-icon-card-desc">
+                                <h3 class="h5">Duration of Stay</h3>
+                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-icon-card">
+                            <div class="content-icon-card-image">
+                                <img src="assets/images/duration.svg" alt="" width="64" height="72">
+                            </div>
+                            <div class="content-icon-card-desc">
+                                <h3 class="h5">Duration of Stay</h3>
+                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -656,112 +743,301 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="location-list active">
-                        <div class="location-list-title" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423565.79655648855!2d-118.401412!3d33.964069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbda93225095%3A0xb7e7abe9bc5ab03!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Playa%20Del%20Rey%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728990586273!5m2!1sen!2sus">
+                        <div class="location-list-title"
+                            data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423565.79655648855!2d-118.401412!3d33.964069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbda93225095%3A0xb7e7abe9bc5ab03!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Playa%20Del%20Rey%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728990586273!5m2!1sen!2sus">
                             <h5 class="h5">Design For Recovery - Sober Living Playa Del Rey, Los Angeles</h5>
                             <span><i class="icon-angle-right"></i></span>
                         </div>
                         <div class="location-list-desc" style="display: block">
                             <div class="location-list-detail">
-                                <div class="location-list-detail-image" style="background-image: url('assets/images/gallery-1.jpg');">
-                                    
+                                <div class="location-list-detail-image"
+                                    style="background-image: url('assets/images/gallery-1.jpg');">
+
                                 </div>
                                 <div class="location-list-detail-content">
                                     <ul class="address-detail">
-                                        <li class="address-detail-items"><i class="icon-location"></i><span><a href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Playa+Del+Rey,+Los+Angeles/@34.0098181,-118.461796,13z/data=!4m6!3m5!1s0x80c2bbda93225095:0xb7e7abe9bc5ab03!8m2!3d33.9640688!4d-118.4014121!16s%2Fg%2F11g0r3wg7t?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">6467 W 83rd St, Los Angeles, CA 90045, United States</a></span></li>
-                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24 hours</span></li>
-                                        <li class="address-detail-items"><i class="icon-phone"></i><a href="tel:3105546884"><span>(310) 554-6884</span></a></li>
-                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Playa+Del+Rey,+Los+Angeles/@34.0098181,-118.461796,13z/data=!4m6!3m5!1s0x80c2bbda93225095:0xb7e7abe9bc5ab03!8m2!3d33.9640688!4d-118.4014121!16s%2Fg%2F11g0r3wg7t?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Get driving directions</a></span></li>
+                                        <li class="address-detail-items"><i class="icon-location"></i><span><a
+                                                    href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Playa+Del+Rey,+Los+Angeles/@34.0098181,-118.461796,13z/data=!4m6!3m5!1s0x80c2bbda93225095:0xb7e7abe9bc5ab03!8m2!3d33.9640688!4d-118.4014121!16s%2Fg%2F11g0r3wg7t?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                                                    target="_blank">6467 W 83rd St, Los Angeles, CA 90045, United
+                                                    States</a></span></li>
+                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24
+                                                hours</span></li>
+                                        <li class="address-detail-items"><i class="icon-phone"></i><a
+                                                href="tel:3105546884"><span>(310) 554-6884</span></a></li>
+                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a
+                                                    href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Playa+Del+Rey,+Los+Angeles/@34.0098181,-118.461796,13z/data=!4m6!3m5!1s0x80c2bbda93225095:0xb7e7abe9bc5ab03!8m2!3d33.9640688!4d-118.4014121!16s%2Fg%2F11g0r3wg7t?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                                                    target="_blank">Get driving directions</a></span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="location-list-image-m-visible">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423565.79655648855!2d-118.401412!3d33.964069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbda93225095%3A0xb7e7abe9bc5ab03!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Playa%20Del%20Rey%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728990586273!5m2!1sen!2sus" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423565.79655648855!2d-118.401412!3d33.964069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbda93225095%3A0xb7e7abe9bc5ab03!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Playa%20Del%20Rey%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728990586273!5m2!1sen!2sus"
+                                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="location-list">
-                        <div class="location-list-title" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423338.25177794625!2d-118.43089600000002!3d34.009737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba5a8a840001%3A0xf0db78debebe7624!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Mar%20Vista%2C%20West%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991187142!5m2!1sen!2sus">
+                        <div class="location-list-title"
+                            data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423338.25177794625!2d-118.43089600000002!3d34.009737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba5a8a840001%3A0xf0db78debebe7624!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Mar%20Vista%2C%20West%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991187142!5m2!1sen!2sus">
                             <h5 class="h5">Design For Recovery - Sober Living Playa Del Rey, Los Angeles</h5>
                             <span><i class="icon-angle-right"></i></span>
                         </div>
                         <div class="location-list-desc" style="display: none">
                             <div class="location-list-detail">
-                                <div class="location-list-detail-image" style="background-image: url('assets/images/gallery-1.jpg');">
-                                    
+                                <div class="location-list-detail-image"
+                                    style="background-image: url('assets/images/gallery-1.jpg');">
+
                                 </div>
                                 <div class="location-list-detail-content">
                                     <ul class="address-detail">
                                         <li class="address-detail-items"><i class="icon-location"></i><span>
-                                        <a href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Mar+Vista,+West+Los+Angeles/@34.0097365,-118.4308959,15z/data=!4m6!3m5!1s0x80c2ba5a8a840001:0xf0db78debebe7624!8m2!3d34.0097365!4d-118.4308959!16s%2Fg%2F11f51zry_n?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">11960 Modjeska Pl, Los Angeles, CA 90066, United States</a></span></li>
-                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24 hours</span></li>
-                                        <li class="address-detail-items"><i class="icon-phone"></i><a href="tel:3105546884"><span>(310) 554-6862</span></a></li>
-                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Mar+Vista,+West+Los+Angeles/@34.0097365,-118.4308959,15z/data=!4m6!3m5!1s0x80c2ba5a8a840001:0xf0db78debebe7624!8m2!3d34.0097365!4d-118.4308959!16s%2Fg%2F11f51zry_n?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Get driving directions</a> </span></li>
+                                                <a href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Mar+Vista,+West+Los+Angeles/@34.0097365,-118.4308959,15z/data=!4m6!3m5!1s0x80c2ba5a8a840001:0xf0db78debebe7624!8m2!3d34.0097365!4d-118.4308959!16s%2Fg%2F11f51zry_n?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                                                    target="_blank">11960 Modjeska Pl, Los Angeles, CA 90066, United
+                                                    States</a></span></li>
+                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24
+                                                hours</span></li>
+                                        <li class="address-detail-items"><i class="icon-phone"></i><a
+                                                href="tel:3105546884"><span>(310) 554-6862</span></a></li>
+                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a
+                                                    href="https://www.google.com/maps/place/Design+For+Recovery+-+Sober+Living+Mar+Vista,+West+Los+Angeles/@34.0097365,-118.4308959,15z/data=!4m6!3m5!1s0x80c2ba5a8a840001:0xf0db78debebe7624!8m2!3d34.0097365!4d-118.4308959!16s%2Fg%2F11f51zry_n?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                                                    target="_blank">Get driving directions</a> </span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="location-list-image-m-visible">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423338.25177794625!2d-118.43089600000002!3d34.009737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba5a8a840001%3A0xf0db78debebe7624!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Mar%20Vista%2C%20West%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991187142!5m2!1sen!2sus" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423338.25177794625!2d-118.43089600000002!3d34.009737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba5a8a840001%3A0xf0db78debebe7624!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Mar%20Vista%2C%20West%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991187142!5m2!1sen!2sus"
+                                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="location-list">
-                        <div class="location-list-title" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423253.7733762818!2d-118.36991400000001!3d34.026678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9034850aeb9%3A0xc7817908a9657f40!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Central%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991238467!5m2!1sen!2sus">
+                        <div class="location-list-title"
+                            data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423253.7733762818!2d-118.36991400000001!3d34.026678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9034850aeb9%3A0xc7817908a9657f40!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Central%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991238467!5m2!1sen!2sus">
                             <h5 class="h5">Design For Recovery - Sober Living Playa Del Rey, Los Angeles</h5>
                             <span><i class="icon-angle-right"></i></span>
                         </div>
                         <div class="location-list-desc" style="display: none">
                             <div class="location-list-detail">
-                                <div class="location-list-detail-image" style="background-image: url('assets/images/gallery-1.jpg');">
-                                    
+                                <div class="location-list-detail-image"
+                                    style="background-image: url('assets/images/gallery-1.jpg');">
+
                                 </div>
                                 <div class="location-list-detail-content">
                                     <ul class="address-detail">
-                                        <li class="address-detail-items"><i class="icon-location"></i><span><a href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu" target="_blank"> 5637 W Jefferson Blvd, Los Angeles, CA 90016, United States</a> </span></li>
-                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24 hours</span></li>
-                                        <li class="address-detail-items"><i class="icon-phone"></i><a href="tel:3105546884"><span>(424) 242-1130</span></a></li>
-                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu" target="_blank">Get driving directions</a></span></li>
+                                        <li class="address-detail-items"><i class="icon-location"></i><span><a
+                                                    href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu"
+                                                    target="_blank"> 5637 W Jefferson Blvd, Los Angeles, CA 90016,
+                                                    United States</a> </span></li>
+                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24
+                                                hours</span></li>
+                                        <li class="address-detail-items"><i class="icon-phone"></i><a
+                                                href="tel:3105546884"><span>(424) 242-1130</span></a></li>
+                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a
+                                                    href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu"
+                                                    target="_blank">Get driving directions</a></span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="location-list-image-m-visible">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423253.7733762818!2d-118.36991400000001!3d34.026678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9034850aeb9%3A0xc7817908a9657f40!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Central%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991238467!5m2!1sen!2sus" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423253.7733762818!2d-118.36991400000001!3d34.026678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9034850aeb9%3A0xc7817908a9657f40!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Central%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991238467!5m2!1sen!2sus"
+                                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="location-list">
-                        <div class="location-list-title" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423522.01554470195!2d-118.371997!3d33.97286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b785260a0a2b%3A0x300cfb7c7a46b826!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Westside%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991267643!5m2!1sen!2sus">
+                        <div class="location-list-title"
+                            data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423522.01554470195!2d-118.371997!3d33.97286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b785260a0a2b%3A0x300cfb7c7a46b826!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Westside%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991267643!5m2!1sen!2sus">
                             <h5 class="h5">Design For Recovery - Sober Living Playa Del Rey, Los Angeles</h5>
                             <span><i class="icon-angle-right"></i></span>
                         </div>
                         <div class="location-list-desc" style="display: none">
                             <div class="location-list-detail">
-                                <div class="location-list-detail-image" style="background-image: url('assets/images/gallery-1.jpg');">
-                                    
+                                <div class="location-list-detail-image"
+                                    style="background-image: url('assets/images/gallery-1.jpg');">
+
                                 </div>
                                 <div class="location-list-detail-content">
                                     <ul class="address-detail">
-                                        <li class="address-detail-items"><i class="icon-location"></i><span><a href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu" target="_blank"> 7036 Glasgow Ave, Los Angeles, CA 90045, United States</a></span></li>
-                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24 hours</span></li>
-                                        <li class="address-detail-items"><i class="icon-phone"></i><a href="tel:3105546884"><span> (424) 842-4271</span></a></li>
-                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu" target="_blank">Get driving directions </a></span></li>
+                                        <li class="address-detail-items"><i class="icon-location"></i><span><a
+                                                    href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu"
+                                                    target="_blank"> 7036 Glasgow Ave, Los Angeles, CA 90045, United
+                                                    States</a></span></li>
+                                        <li class="address-detail-items"><i class="icon-clock"></i><span>Open 24
+                                                hours</span></li>
+                                        <li class="address-detail-items"><i class="icon-phone"></i><a
+                                                href="tel:3105546884"><span> (424) 842-4271</span></a></li>
+                                        <li class="address-detail-items"><i class="icon-compass2"></i><span><a
+                                                    href="https://www.google.com/maps/place/5637+W+Jefferson+Blvd,+Los+Angeles,+CA+90016,+USA/@34.026682,-118.3724892,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b998067a1a11:0xa64eedd96e8e2b0a!8m2!3d34.0266776!4d-118.3699143!16s%2Fg%2F11c2glpk_k?entry=ttu"
+                                                    target="_blank">Get driving directions </a></span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="location-list-image-m-visible">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423522.01554470195!2d-118.371997!3d33.97286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b785260a0a2b%3A0x300cfb7c7a46b826!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Westside%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991267643!5m2!1sen!2sus" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423522.01554470195!2d-118.371997!3d33.97286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b785260a0a2b%3A0x300cfb7c7a46b826!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Westside%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728991267643!5m2!1sen!2sus"
+                                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="location-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423565.79655648855!2d-118.401412!3d33.964069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbda93225095%3A0xb7e7abe9bc5ab03!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Playa%20Del%20Rey%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728990586273!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423565.79655648855!2d-118.401412!3d33.964069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbda93225095%3A0xb7e7abe9bc5ab03!2sDesign%20For%20Recovery%20-%20Sober%20Living%20Playa%20Del%20Rey%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1728990586273!5m2!1sen!2sus"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Our Location ends -->
+
+    <!-- Quotation CTA starts here -->
+    <section class="quotation-cta common-spacing-tb">
+        <div class="container">
+            <div class="quotation-cta-wrapper">
+                <div class="quotation-cta-content">
+                    <i class="icon-comma"></i>
+                    <blackquote class="blackquote">In The Words of the Founder</blackquote>
+                    <div class="section-heading">
+                        <h2 class="h2">There is a wonderful world outside of addiction and a beautiful life any addict
+                            can have. We want to help them find that.</h2>
+                        <p>Take a virtual step into our serene and structured sober living home in Los Angeles. This
+                            online tour lets you experience the nurturing environment that fosters lasting recovery and
+                            personal growth.</p>
+                    </div>
+                    <a href="" class="cta cta-secondary">Start your virtual experience</a>
+                </div>
+                <div class="quotation-cta-image">
+                    <img src="assets/images/cta-section-image.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quotation CTA starts ends here -->
+
+    <!-- Location area starts -->
+    <section class="location-area-section">
+        <div class="container">
+            <div class="location-area-char">
+                <div class="location-area-char-items active" data-class="a">A</div>
+                <div class="location-area-char-items" data-class="b">B</div>
+                <div class="location-area-char-items" data-class="c">C</div>
+                <div class="location-area-char-items" data-class="d">D</div>
+                <div class="location-area-char-items" data-class="e">E</div>
+                <div class="location-area-char-items" data-class="f">F</div>
+                <div class="location-area-char-items" data-class="g">G</div>
+                <div class="location-area-char-items" data-class="h">H</div>
+                <div class="location-area-char-items" data-class="i">I</div>
+                <div class="location-area-char-items" data-class="k">K</div>
+                <div class="location-area-char-items" data-class="l">L</div>
+                <div class="location-area-char-items" data-class="m">M</div>
+                <div class="location-area-char-items" data-class="n">N</div>
+                <div class="location-area-char-items" data-class="o">O</div>
+                <div class="location-area-char-items" data-class="p">P</div>
+                <div class="location-area-char-items" data-class="r">R</div>
+                <div class="location-area-char-items" data-class="s">S</div>
+                <div class="location-area-char-items" data-class="t">T</div>
+                <div class="location-area-char-items" data-class="v">V</div>
+                <div class="location-area-char-items" data-class="w">W</div>
+            </div>
+            <div class="location-area-content">
+                <div class="location-area-content-blocks" data-section="a">
+                    <h4 class="h4">A</h4>
+                    <ul class="list-2">
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                    </ul>
+                </div>
+                <div class="location-area-content-blocks" data-section="b">
+                    <h4 class="h4">B</h4>
+                    <ul class="list-2">
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                    </ul>
+                </div>
+                <div class="location-area-content-blocks" data-section="c">
+                    <h4 class="h4">C</h4>
+                    <ul class="list-2">
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                    </ul>
+                </div>
+                <div class="location-area-content-blocks" data-section="d">
+                    <h4 class="h4">D</h4>
+                    <ul class="list-2">
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                    </ul>
+                </div>
+                <div class="location-area-content-blocks" data-section="e">
+                    <h4 class="h4">E</h4>
+                    <ul class="list-2">
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                    </ul>
+                </div>
+                <div class="location-area-content-blocks" data-section="f">
+                    <h4 class="h4">F</h4>
+                    <ul class="list-2">
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                        <li class="list-2-items"><a href="">Sober Living in San Luis Obispo, CA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Location area ends -->
+
+    <!-- Testimonial start here -->
+    <section class="testimonial-section">
+
+    </section>
+    <!-- Testimonial ends here -->
 
     <!-- Footer starts -->
     <?php include('includes/footer.php')?>

@@ -35,6 +35,81 @@
     &-desc {
         flex: 0 0 auto;
         width: 58.33333333%;
+
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-bottom: 24px;
+            gap: 2px;
+
+            &-item {
+                position: relative;
+
+                &__link {
+                    padding: 16px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: $secondary-font-color;
+                    border: none;
+                    border-bottom: solid 3px $border-color;
+                    cursor: pointer;
+                    background: $base-light-grey;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    &.active {
+                        background: $base-light-color;
+                        border-color: $primary-color;
+                        color: $primary-font-color;
+
+                        &:hover {
+                            border-color: $primary-color;
+                            color: $primary-color;
+                        }
+                    }
+
+                    &:hover {
+                        border-color: $border-color;
+                        color: $base-grey-color;
+                    }
+                }
+            }
+
+            &-panel {
+                display: none;
+
+                &-active {
+                    display: block;
+                }
+            }
+        }
+
+        .content-icon {
+            &-card {
+                display: flex;
+                align-items: start;
+                margin-bottom: 20px;
+
+                &-image {
+                    width: 64px;
+                }
+
+                &-desc {
+                    width: calc(100% - 64px);
+                    padding-left: 20px;
+
+                    .h5 {
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
     }
 
 
@@ -101,6 +176,25 @@
         }
     }
 
+    @media screen and (max-width: 991.99px) {
+        &-desc {
+            .content-icon {
+                &-card {
+                    margin-bottom: 16px;
+
+                    &-image {
+                        width: 40px;
+                    }
+
+                    &-desc {
+                        width: calc(100% - 40px);
+                        padding-left: 16px;
+                    }
+                }
+            }
+        }
+    }
+
     @media only screen and (max-width: 767.98px) {
         &.sticky-image {
             .content-section {
@@ -121,6 +215,16 @@
 
         &-desc {
             width: 100%;
+
+            .tabs {
+
+                &-item {
+
+                    &__link {
+                        padding: 8px 16px;
+                    }
+                }
+            }
         }
 
         &-left-image {

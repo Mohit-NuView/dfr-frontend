@@ -1,0 +1,71 @@
+.quotation-cta {
+    &-wrapper {
+        background: $primary-color;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+
+    &-content {
+        width: 65%;
+        padding: 56px 0 56px 80px;
+        color: $base-light-color;
+
+        .blackquote {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 32px;
+            padding-left: 30px;
+            position: relative;
+
+            &::before {
+                content: '';
+                width: 22px;
+                height: 2px;
+                background: $base-light-color;
+                position: absolute;
+                left: 0;
+                top: 15px;
+            }
+        }
+
+        i {
+            font-size: 80px;
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+    }
+
+    &-image {
+        width: 35%;
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &-content {
+            padding: 48px;
+        }
+    }
+
+    @media screen and (max-width: 991.98px) {
+        &-content {
+            width: 100%;
+            padding: 48px;
+            .blackquote {
+                margin-bottom: 24px;
+            }
+
+            i {
+                font-size: 60px;
+                margin-bottom: 24px;
+            }
+        }
+        &-image {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+        &-content {
+            padding: 24px;
+        }
+    }
+}

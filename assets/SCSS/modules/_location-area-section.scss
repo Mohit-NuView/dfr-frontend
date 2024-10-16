@@ -1,0 +1,117 @@
+.list-2 {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    gap: 8px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+
+    &-items {
+        width: 32.5%;
+
+        &>a {
+            background-color: $base-light-grey;
+            border-radius: 12px;
+            padding: 15px 40px 15px 20px;
+            display: block;
+            color: $primary-font-color;
+            position: relative;
+
+            &::after {
+                /* use !important to prevent issues with browser extensions that change fonts */
+                font-family: 'icomoon' !important;
+                content: "\f105";
+                position: absolute;
+                right: 20px;
+                top: 0;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: $primary-color;
+            }
+
+            &:hover {
+                background: $primary-light-color;
+            }
+        }
+    }
+
+    @media screen and (max-width: 991.98px) {
+        &-items {
+            width: 49%;
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        &-items {
+            width: 100%;
+        }
+    }
+}
+
+.location-area {
+    &-char {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        position: sticky;
+        top: 108px;
+        background-color: $base-light-color;
+        z-index: 1;
+        padding: 16px 0;
+
+        &-items {
+            padding: 12px 16px;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: $base-light-grey;
+            border-radius: 12px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #e2e2e2;
+            }
+
+            &.active {
+                background-color: $primary-color;
+                color: $base-light-color;
+            }
+        }
+    }
+
+    &-content {
+        padding: 20px 0;
+
+        &-blocks {
+            .h4 {
+                padding-bottom: 8px;
+                border-bottom: solid 1px $border-color;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1199.98px) {
+        &-char {
+            gap: 8px;
+            top: 104px;
+
+            &-items {
+                padding: 8px 12px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 991.98px) {
+        &-char {
+            top: 92px;
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        &-char {
+            top: 64px;
+        }
+    }
+}

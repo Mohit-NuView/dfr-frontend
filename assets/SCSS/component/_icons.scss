@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?wgfvik');
-  src:  url('../fonts/icomoon.eot?wgfvik#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?wgfvik') format('truetype'),
-    url('../fonts/icomoon.woff?wgfvik') format('woff'),
-    url('../fonts/icomoon.svg?wgfvik#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?nwmtfd');
+  src:  url('../fonts/icomoon.eot?nwmtfd#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?nwmtfd') format('truetype'),
+    url('../fonts/icomoon.woff?nwmtfd') format('woff'),
+    url('../fonts/icomoon.svg?nwmtfd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,14 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-comma:before {
+  content: "\e902";
+}
 .icon-add:before {
   content: "\e900";
 }
 .icon-menu-bar:before {
   content: "\e901";
-}
-.icon-left-quote:before {
-  content: "\e902";
 }
 .icon-close:before {
   content: "\e905";
@@ -93,7 +93,4 @@
 }
 .icon-angle-right:before {
   content: "\f105";
-}
-.icon-compass2:before {
-  content: "\e94a";
 }
