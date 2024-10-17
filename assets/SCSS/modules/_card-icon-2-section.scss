@@ -1,0 +1,75 @@
+.card-icon-2 {
+    position: relative;
+    overflow: hidden;
+    color: $primary-font-color;
+    background-color: $base-light-color;
+    font-weight: $base-font-weight;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 12px;
+    width: 18.9%;
+
+    &-section {
+        background: $base-light-grey;
+    }
+
+    &-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    &-image {
+        height: 72px;
+        margin-bottom: 16px;
+    }
+
+    &-content {
+        .h6 {
+            margin-bottom: 16px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+
+    &:hover {
+        .card-icon-overlay {
+            top: 0;
+            opacity: 1;
+        }
+    }
+
+    @media screen and (max-width: 1199.99px) {
+        width: 31%;
+        padding: 24px;
+
+        &-wrapper {
+            justify-content: start;
+        }
+
+        &-content {
+            .h5 {
+                margin-bottom: 8px;
+            }
+        }
+    }
+    @media screen and (max-width: 767.99px) {
+        width: 100%;
+        padding: 24px;
+
+        &-wrapper {
+            justify-content: start;
+        }
+
+        &-content {
+            .h5 {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

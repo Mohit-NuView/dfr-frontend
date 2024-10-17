@@ -145,6 +145,11 @@ $(document).ready(function () {
         }
     });
 
+    /* $('.readmore-testimonial').readmore({
+        speed: 75,
+        maxHeight: 50
+      }); */
+
 
     //Blog JS start here
     /* $('.blog-detail-left-section .list li').bind('click', function (e) {

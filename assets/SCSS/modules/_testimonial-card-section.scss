@@ -1,0 +1,78 @@
+.testimonial-card {
+    @include box-shadow(0, 0, 30px, rgba(0, 0, 0, 0.1));
+    border-radius: 32px;
+    overflow: hidden;
+    width: 30.7%;
+
+    &-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px;
+    }
+
+    &-content {
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+
+        .icon-comma {
+            font-size: 56px;
+            margin-bottom: 32px;
+            color: $primary-color;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    &-author-detail {
+        background-color: $primary-light-color;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+
+        .h5 {
+            margin-bottom: 8px;
+        }
+
+        .rating {
+            display: flex;
+            margin-bottom: 16px;
+            color: #ECD147;
+        }
+
+        &-date {
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+        width: 47.3%;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+        width: 100%;
+
+        &-wrapper {
+            gap: 32px;
+        }
+
+        &-content {
+            padding: 24px;
+
+            .icon-comma {
+                font-size: 40px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 767.98px) {
+        &-content {
+            .icon-comma {
+                font-size: 32px;
+            }
+        }
+    }
+}

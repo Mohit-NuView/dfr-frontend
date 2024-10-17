@@ -172,7 +172,8 @@
                             </div>
                             <div class="content-icon-card-desc">
                                 <h3 class="h5">Duration of Stay</h3>
-                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                <p>The length of your stay depends on the level of care provided, with some houses
+                                    having minimum and maximum time limits.
                                 </p>
                             </div>
                         </div>
@@ -182,7 +183,8 @@
                             </div>
                             <div class="content-icon-card-desc">
                                 <h3 class="h5">Duration of Stay</h3>
-                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                <p>The length of your stay depends on the level of care provided, with some houses
+                                    having minimum and maximum time limits.
                                 </p>
                             </div>
                         </div>
@@ -192,7 +194,8 @@
                             </div>
                             <div class="content-icon-card-desc">
                                 <h3 class="h5">Duration of Stay</h3>
-                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                <p>The length of your stay depends on the level of care provided, with some houses
+                                    having minimum and maximum time limits.
                                 </p>
                             </div>
                         </div>
@@ -202,7 +205,8 @@
                             </div>
                             <div class="content-icon-card-desc">
                                 <h3 class="h5">Duration of Stay</h3>
-                                <p>The length of your stay depends on the level of care provided, with some houses having minimum and maximum time limits.
+                                <p>The length of your stay depends on the level of care provided, with some houses
+                                    having minimum and maximum time limits.
                                 </p>
                             </div>
                         </div>
@@ -1034,10 +1038,216 @@
     <!-- Location area ends -->
 
     <!-- Testimonial start here -->
-    <section class="testimonial-section">
-
+    <section class="testimonial-card-section common-spacing-tb">
+        <div class="container">
+            <div class="testimonial-card-wrapper">
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card-content">
+                        <i class="icon-comma"></i>
+                        <p class="readmore-testimonial">Excellent choice for anyone in need of support through
+                            challenging times in their lives. My
+                            brother entered the program almost 4 years ago and has never looked back.</p>
+                        <!-- <span class="cta cta-link">Readmore</span> -->
+                    </div>
+                    <div class="testimonial-card-author-detail">
+                        <h5 class="h5">Damon McCrystal</h5>
+                        <div class="rating">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                        </div>
+                        <div class="testimonial-card-author-detail-date">June 1, 2022</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Testimonial ends here -->
+
+    <!-- Icon Card Section start -->
+    <section class="card-icon-2-section common-spacing-tb">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="h2">Local 12-Step Meetings near Playa Del Rey Sober Home</h2>
+                <p>Call ahead to confirm times and locations.</p>
+            </div>
+            <div class="card-icon-2-wrapper">
+                <div class="card-icon-2">
+                    <div class="card-icon-2-image">
+                        <img src="assets/images/location-icon.svg" width="68" height="68" loading="lazy" width=""
+                            alt="">
+                    </div>
+                    <div class="card-icon-2-content">
+                        <h6 class="h6">Step Study</h6>
+                        <p>Monday 12:00PM - 12720 Washington Blvd, Los Angeles, CA 90066</p>
+                    </div>
+                </div>
+                <div class="card-icon-2">
+                    <div class="card-icon-2-image">
+                        <img src="assets/images/location-icon.svg" width="68" height="68" loading="lazy" width=""
+                            alt="">
+                    </div>
+                    <div class="card-icon-2-content">
+                        <h6 class="h6">Step Study</h6>
+                        <p>Monday 12:00PM - 12720 Washington Blvd, Los Angeles, CA 90066</p>
+                    </div>
+                </div>
+                <div class="card-icon-2">
+                    <div class="card-icon-2-image">
+                        <img src="assets/images/location-icon.svg" width="68" height="68" loading="lazy" width=""
+                            alt="">
+                    </div>
+                    <div class="card-icon-2-content">
+                        <h6 class="h6">Step Study</h6>
+                        <p>Monday 12:00PM - 12720 Washington Blvd, Los Angeles, CA 90066</p>
+                    </div>
+                </div>
+                <div class="card-icon-2">
+                    <div class="card-icon-2-image">
+                        <img src="assets/images/location-icon.svg" width="68" height="68" loading="lazy" width=""
+                            alt="">
+                    </div>
+                    <div class="card-icon-2-content">
+                        <h6 class="h6">Step Study</h6>
+                        <p>Monday 12:00PM - 12720 Washington Blvd, Los Angeles, CA 90066</p>
+                    </div>
+                </div>
+                <div class="card-icon-2">
+                    <div class="card-icon-2-image">
+                        <img src="assets/images/location-icon.svg" width="68" height="68" loading="lazy" width=""
+                            alt="">
+                    </div>
+                    <div class="card-icon-2-content">
+                        <h6 class="h6">Step Study</h6>
+                        <p>Monday 12:00PM - 12720 Washington Blvd, Los Angeles, CA 90066</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Icon Card Section End -->
 
     <!-- Footer starts -->
     <?php include('includes/footer.php')?>
